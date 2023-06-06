@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+     
+    .body{
+      background:linear-gradient(45deg, #ffffff, #000000);;
+      background-repeat: no-repeat;
+      height: 1500px;
+      
+    }
+    
+    .container{
+    max-width: 1080px;    /*height: 400px*/
+    /*margin: auto;*/
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    }
+    
+   header{
+    background-color:#7F0005;
+    margin:0 auto;
+    /* width: 100%;
+    padding: 20px;*/
+    }
+    
+    .logo{
+    width: 50%;
+    margin: 0;
+    cursor: pointer;
+    }
+    
+    .menu nav a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 18px;
+    position: relative;
+    position: inline-block;
+    }
+    
+   h1{
+    color: #FFF;
+    font-size: 35px;
+    font-family: cursive;
+    }
+    
+    h5{
+      width: 100%;
+    background-color: black;
+    color: white;
+    }
+    
+    p { 
+    background-color: #ACACAC;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    }
+    
+    ul{
+    margin-left: 2%;
+    margin-right: 2%;
+    }
+  
+    .imagens{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .imagens img{
+    
+     width: 320px;
+     height: 250px;
+     margin:5%;
+    }
+
+    h2{
+      margin-top: 50px;
+      margin-bottom: 35px;
+      color: rgb(255, 255, 255);
+    }
+
+   img{
+    width: 210px;
+    height: 150px;
+    display: block;
+   }
+
+   .flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 940px;
+    margin: 0 auto;
+   }
+
+  /* .flex img:hover{
+     width: 420;
+     height: 300;
+
+   }*/
+
+   .flex > div{
+    flex: 1 1 200px;
+    margin: 10px; 
+   }
+
+   /*@media screen and (max-width:480) {
+      .container {
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .flex{
+        max-width: 480px;
+        flex-wrap: wrap;
+        margin: auto;
+
+      }
+   }
+   */

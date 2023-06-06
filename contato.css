@@ -1,0 +1,149 @@
+.body-contatos{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    max-width: 940px;
+   /*width: 100%;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho h1{
+padding-left: 30px ;
+padding-right: 100px;
+padding-top: 27px;
+font-size: 40px;
+}
+
+.menu{
+    margin: 0 auto;
+    padding-top: 28px;
+}
+
+.menu a{
+color: #000;
+text-decoration: none;
+padding-right: 15px;
+}
+
+header{
+    background-color: rgb(151, 118, 212);
+    height: 100px;
+}
+
+main{  
+width:100%;
+margin-left: 20px;
+}
+
+form{
+width:80%; 
+margin: 40px 0;
+}
+
+select{
+    border: solid 1px rgb(151, 118, 212);
+}
+
+.dados{
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 25px;
+    width: 50%;
+}
+
+form label, form legend{
+font-weight:bold;
+display: block;
+margin: 0 0 10px;
+}
+
+form input{
+max-width:100%; 
+margin-top: 5px; 
+margin-bottom: 15px;
+border:solid rgb(151, 118, 212) 1px; 
+padding-left:1px;
+}
+
+form textarea{
+max-width: 100%;
+width:100%;
+border:solid rgb(151, 118, 212) 1px;
+padding-left:1px; 
+}
+
+.radio{
+margin-right: 10px;
+}
+
+fieldset{
+    border: none;
+}
+
+table{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table td, table th{
+    border: 1px solid rgb(151, 118, 212);
+    padding: 5px;
+}
+th{
+    background-color: #ccc;
+    font-size: 15px;
+    margin:0;
+}
+
+.button{
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+.button:hover{
+    transform: scale(1.2);
+    background: rgb(151, 118, 212);
+    color: #fff;
+}
+
+@media screen and (max-width:480px){
+    .body-contatos{
+        width: 480px;
+
+    }
+    .cabecalho-contatos{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(151, 1, 151);
+    }
+    .logo-contatos h1{
+        color: white;
+        margin: auto;
+    }
+
+    .menu-contatos a{
+        background: rgb(151, 1, 151);
+        color: white;
+    }
+
+    .dados {
+        margin: 0 10px;
+        padding: 10px;
+        display: 40px;
+        width: 550px;
+
+    }
+    th{
+        font-size: 20px;
+        width: 180px;
+    } 
+
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="viewport" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0 /">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+<body class="body-contatos">
+    <header class="header-contatos">
+    <div class="cabecalho-contatos">
+        <div class="logo-contatos">Contato</div>
+        <div class="menu-contatos">
+            <a href="index.html">Home</a>
+            <a href="fotos.html">Seção de fotos</a>
+            <a href="curso.html">Curso</a>
+            <a href="http://portal.mec.gov.br/pronatec">Pronatec</a>
+        </div>
+    </div>
+        
+    </header>
+
+ <main class="main-contatos">
+    <form name="meu_form">
+    
+     <label for="nome" >Nome:</label>
+      <input type="text" id="nome" placeholder="Ex:Maria da Silva" required="required" class="dados">
+
+     <label  for="fone" > Fone:</label>
+         <input type="tel" id="fone" placeholder="(00)0000-0000" class="dados">
+    
+     <label for="email">Email:</label>
+         <input type="email" id="email" placeholder="maria@gmail.com" required="required" class="dados">
+
+     <label for="mensagem">Mensagem</label>
+     <textarea rows="10" placeholder="Mensagem" required="required" id="mensagem" class="dados"></textarea>
+  
+    <fieldset>
+      <legend>Como você quer que entremos em contato?</legend>
+
+ <label for="radio-telefone"><input type="radio" class="radio" id="radio-telefone"  name="theradio">Telefone</label>
+
+          <label for="radio1"><input type="radio" class="radio" id="radio1"  name="theradio">Email</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Qual horário prefere ser atendido?</legend>
+      <select>
+        <option>Manhã</option>
+        <option>Tarde</option>
+        <option>Noite</option>
+      </select>
+    </fieldset>
+    <br>    
+     
+    <table>
+        <thead>
+            <tr>
+         <th>Dia</th>
+         <th>Horário</th>
+            </tr>
+        </thead>
+            
+        <tbody>
+            
+        <tr>
+        <td>Segunda-feira</td>
+        <td>08:30h - 20h</td>
+        </tr>
+        
+        <tr>
+        <td>Terça-feira</td>
+        <td>08:30h - 20h</td>
+        </tr>
+        
+        <tr>
+        <td>Quarta-feira</td>
+        <td>08:30h - 20h</td>
+        </tr>
+        
+        <tr>
+        <td>Quinta-feira</td>
+        <td>08:30h - 20h</td>
+        </tr>
+        
+        <tr>
+        <td>Sexta-feira</td>
+        <td>08:30h - 20h</td>
+        </tr>
+    </tbody>
+    </table>
+    
+          <input type="submit" value="Enviar" class="button">
+          <input type="reset" value="Limpar" class="button">
+          
+           </form>
+ </main>
+
+ <footer class="footer-contatos">
+    <img class="rdp" src="imagenscurso/logo-rodape.png" alt="">
+    <p class="copyright">&#169; Copyright<br>Pronatec Curso de Redes de Computadores - 2023</p>
+</footer>
+
+   </body>
+</html>

@@ -1,0 +1,141 @@
+/*{
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 13px;
+    box-sizing: border-box;
+}*/
+
+.body-pronatec{
+    background: linear-gradient(45deg, rgb(177, 209, 217),rgb(39, 131, 197), rgb(177, 209, 217));
+}
+
+/*cabeçalho*/
+
+.header-pronatec{
+    width: auto;
+    height: 15%;
+    background: rgb(39, 131, 197);
+    padding: 20px 0;
+}
+
+.cabecalho-index{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: rgb(39, 131, 197);
+    margin: auto;
+    padding: 2%;  
+}
+
+.indexh1{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+#logoprincipal{
+
+    width: 40%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    
+}
+
+/*menu-principal*/
+
+.menu-principal{
+    width: 70%;
+    padding-left: 3%;
+
+}
+
+.menu-principal a{
+    margin: 0 0 0 10%;
+}
+
+.menu-principal ul{
+    width: 50px;
+    display: inline;
+}
+
+.menu-principal li{
+    display: inline;
+    font-weight: bold;
+
+}
+
+.menu-principal li:hover{
+    text-transform: uppercase;
+}
+
+#home{
+    color: rgb(220, 226, 43);
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+#home:hover{
+    color: rgb(255, 255, 255);
+}
+
+#curso{
+    color: rgb(40, 51, 169);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#curso:hover{
+    color: rgb(255, 255, 255);
+}
+
+#pronatec{
+    color: rgb(21, 77, 21);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#pronatec:hover{
+    color: rgb(255, 255, 255);
+}
+
+#contato{
+    color: rgb(151, 1, 151);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#contato:hover{
+    color: rgb(255, 255, 255);
+}
+
+.titulos-pronatec{
+    text-align: center;
+    padding-top: 2%;
+    text-decoration: solid;
+}
+
+.alinhador{
+    padding-left: 27%;
+}
+
+.border{
+    border: solid;
+    border-radius: 15%;
+    width: 600px;
+    /*align-items: center;*/
+}
+
+.sub-titulo-pronatec{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.lista{
+    font-size: 20px;
+}
+
+.imagem{
+    padding-left: 100px;
+}
