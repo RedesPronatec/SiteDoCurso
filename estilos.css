@@ -414,13 +414,13 @@ p{
    }
 
 
-/*///////////////////////////////////////*/
+/*//////////////////////////////////////*/
 /*/////////////////CURSO/////////////////*/
-/*///////////////////////////////////////*/
 
 .body-curso{
     margin: 0;
     padding: 0;
+    width: 940px;
     box-sizing: border-box;
     background: linear-gradient(45deg, rgb(177, 209, 217),rgb(39, 131, 197), rgb(177, 209, 217));
 }
@@ -428,10 +428,11 @@ p{
 /*cabeçalho*/
 
 .header-pronatec{
-    width: auto;
-    height: 15%;
+    width: 1349px;
+    height: 20%;
     background: rgb(39, 131, 197);
-    padding: 20px 0;
+    padding: 0;
+    margin: 0;
 }
 
 .cabecalho-curso{
@@ -472,11 +473,11 @@ p{
 
 .menu-principal ul{
     width: 50px;
-    display: inline;
+    display: inline-block;
 }
 
 .menu-principal li{
-    display: inline;
+    display: inline-block;
     font-weight: bold;
 
 }
@@ -528,13 +529,14 @@ p{
 
 .titulos-pronatec{
     text-align: center;
+    padding-left: 45%;
     padding-top: 2%;
     text-decoration: solid;
     font-size: 30px;
 }
 
 .alinhador{
-    padding-left: 25%;
+    padding-left: 30%;
 }
 
 .border{
@@ -548,7 +550,14 @@ p{
     border: solid;
     border-radius: 15%;
     width: 800px;
-    height: 300px;
+    height: 400px;
+}
+
+.border-final2{
+    border: solid;
+    border-radius: 15%;
+    width: 800px;
+    height: 400px;
 }
 
 .sub-titulo-pronatec{
@@ -559,10 +568,9 @@ p{
 }
 
 .projetos{
-    padding: 10%;
     text-align: center;
     text-decoration: underline;
-    font-size: 150%;
+    font-size: 80%;
     color: rgb(40, 51, 169);
 }
 
@@ -631,14 +639,14 @@ p{
 }
 
 .footer-curso{
+    width: 1349px;
     position: absolute;
-    width: 100%;
     text-align: center;
     background-color: rgb(39, 131, 197);
     padding: 40px 0 0;
     color: antiquewhite;
-    top: auto;
 }
+
 
 /*////////////////////////////////////////*/
 /*////////////////CONTATOS////////////////*/
@@ -1032,8 +1040,9 @@ th{
     }
 
 /*///////////CURSO////////////*/
-
-    .header-pronatec{
+	   
+	   
+	   .header-pronatec{
         width: 480px;
     }
 
@@ -1041,104 +1050,133 @@ th{
         max-width: auto;
         width: 480px;
         margin: auto; 
-        }
+    }
 
-        .titulos-pronatec{
-            font-size: 25px;
-        }
+    #logoprincipal{
+        width: 70%;
+    }
 
-        .alinhador{
-            padding-left: 2%;
-        }
+    .menu-principal ul{
+        width: 50px;
+        display: inline-block;
+        padding-right: 80px;
+    }
+    
+    .menu-principal li{
+        display: inline-block;
+        font-weight: bold;
+    
+    }
+
+    .titulos-pronatec{
+        padding-left: 3%;
+        font-size: 25px;
+    }
+
+    .alinhador{
+        padding-left: 2%;
+    }
 
 
-        .border{
-            width: 460px;
-            height: 450px;
-        }
+    .border{
+        width: 460px;
+        height: 600px;
+    }
 
-        .border-final{
-            width: 460px;
-            height: 280px;
-        }
+    .border-final{
+        width: 460px;
+        height: 280px;
+    }
 
-        .sub-titulo-pronatec{
-            font-size: 110%;
-        }
+    .border-final2{
+        width: 460px;
+        height: 300px;
+    }
 
-        .projetos{
-            padding: 20%;
-        }
+    .sub-titulo-pronatec{
+        font-size: 120%;
+    }
 
-        .lista{
-            color: #000;
-            font-size: 20px;
-            text-align: center;
-            margin: 0 5px 5px;
-        }
+    .projetos{
+        font-size: 19px;
+    }
 
-        .imagem-1 img{
-            width: 285px;
-            padding-left: 70px;
-        }
+    .lista{
+        color: #000;
+        font-size: 20px;
+        margin: 0 5px 5px;
+    }
 
-        .imagem-2 img{
-            width: 285px;
-            padding-left: 70px;
-        }
+    .imagem-1 img{
+        width: 300px;
+        padding-top: 15px;
+        padding-left: 80px;
+    }
 
-        .imagem-3 img{
-            width: 285px;
-            padding-left: 70px;
-            padding-top: 5%;
-        }
+    .imagem-2 img{
+        width: 280px;
+        padding-left: 90px;
+    }
 
-        .imagem-4 img{
-            width: 350px;
-            padding-left: 70px;
-            padding-top: 10%;
-        }
+    .imagem-3 img{
+        width: 285px;
+        padding-left: 85px;
+        padding-top: 3%;
+    }
 
-        .imagem-5 img{
-            width: 350px;
-            padding-left: 70px;
-            padding-top: 10%;
-        }
+    .imagem-4 img{
+        width: 390px;
+        padding-left: 40px;
+        padding-top: 15%;
+    }
 
-        .imagem-6 img{
-            width: 255px;
-            padding-left: 90px;
-        }
+    .imagem-5 img{
+        width: 400px;
+        padding-left: 30px;
+        padding-top: 20%;
+    }
 
-        .imagem-7 img{
-            width: 200px;
-            padding-left: 130px;
-            padding-top: 3%;
-        }
+    .imagem-6 img{
+        width: 295px;
+        padding-left: 80px;
+    }
 
-        .imagem-8 img{
-            width: 255px;
-            padding-left: 95px;
-        }
+    .imagem-7 img{
+        width: 260px;
+        padding-left: 100px;
+        padding-top: 2%;
+    }
 
-        .imagem-9 img{
-            width: 255px;
-            padding-left: 50px;
-        }
+    .imagem-8 img{
+        width: 320px;
+        padding-left: 70px;
+        padding-top: 5%;
+    }
 
-        .imagem-10 img{
-            width: 175px;
-            padding-left: 150px;
-        }
+    .imagem-9 img{
+        width: 230px;
+        padding-left: 105px;
+    }
 
-        .imagem-11 img{
-            width: 245px;
-            padding-left: 105px;
-        }
+    .imagem-10 img{
+        width: 250px;
+        padding-left: 115px;
+    }
 
-        .footer-curso{
-            width: 480px;
-        }
+    .imagem-11 img{
+        width: 245px;
+        padding-left: 105px;
+        padding-top: 3%;
+    }
+
+    .footer-curso{
+        width: 480px;
+    }
+
+    .footer-curso img{
+        width: 40%;
+    }
+
 
         /*//////////Projeto Integrador I/////////////*/
 
